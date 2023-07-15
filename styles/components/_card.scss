@@ -1,0 +1,39 @@
+@import "../abstract/variaveis";
+.card-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    background-color: $color-white;
+    height: 375px;
+    width: 250px;
+    img {
+      width: 14rem;
+      margin-top: 10px;
+      position: relative;
+      border-radius: 10px;
+    }
+    h1 {
+      margin: 0 9px 0 9px;
+      font-size: 18px;
+      font-weight: 700;
+      text-align: center;
+    }
+    p {
+      color: $color-grayishblue;
+      padding: 0 8px 15px 8px;
+      font-size: 10.9px;
+      margin: 0 10px 0 10px;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+  }
+}
